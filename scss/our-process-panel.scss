@@ -1,0 +1,325 @@
+main .our-process-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: $white;
+}
+
+main .our-process-panel .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 99px;
+}
+
+main .our-process-panel .top h1 {
+    margin-bottom: 22px;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(33, 33, 33, 1);
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+main .our-process-panel .top-orange-divider {
+    margin-bottom: 27px;
+    width: 64px;
+    height: 2px;
+    background: transparent url('/resources/divider_orange_u7\ copy\ 3.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+main .our-process-panel .top p {
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(134, 135, 139, 1);
+    opacity: 1;
+}
+
+main .our-process-panel .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    margin-bottom: 122px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 30px;
+}
+
+main .our-process-panel .box-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 286px;
+}
+
+main .our-process-panel .box-design .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(226, 120, 102, 1);
+}
+
+main .our-process-panel .box-crafted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 242px;
+}
+
+main .our-process-panel .box-crafted .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(226, 120, 102, 1);
+}
+
+main .our-process-panel .box-customise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 238px;
+}
+
+main .our-process-panel .box-customise .logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(226, 120, 102, 1);
+}
+
+main .our-process-panel .box-design h2, .box-crafted h2, .box-customise h2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 27px;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(51, 51, 51, 1);
+}
+
+main .our-process-panel .box-design p, .box-crafted p, .box-customise p {
+    text-align: center;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(134, 135, 139, 1);
+}
+// 
+// Media properties
+// 
+
+@media (max-width: 320px) {
+
+    main .our-process-panel .top {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main .our-process-panel .top h1 {
+        text-align: center;
+    }
+
+    main .our-process-panel .top p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom {
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    main .our-process-panel .bottom .box-design {
+        max-width: 260px;
+    }
+
+    main .our-process-panel .bottom .box-design p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-crafted {
+        max-width: 260px;
+    }
+
+    main .our-process-panel .bottom .box-crafted p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-customise {
+        max-width: 260px;
+    }
+
+    main .our-process-panel .bottom .box-customise p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 375px) {
+
+    main .our-process-panel .top {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main .our-process-panel .top h1 {
+        text-align: center;
+    }
+
+    main .our-process-panel .top p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom {
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    main .our-process-panel .bottom .box-design {
+        max-width: 315px;
+    }
+
+    main .our-process-panel .bottom .box-design p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-crafted {
+        max-width: 315px;
+    }
+
+    main .our-process-panel .bottom .box-crafted p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-customise {
+        max-width: 315px;
+    }
+
+    main .our-process-panel .bottom .box-customise p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 425px) {
+
+    main .our-process-panel .top {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main .our-process-panel .top h1 {
+        text-align: center;
+    }
+
+    main .our-process-panel .top p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom {
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    main .our-process-panel .bottom .box-design {
+        max-width: 315px;
+    }
+
+    main .our-process-panel .bottom .box-design p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-crafted {
+        max-width: 315px;
+    }
+
+    main .our-process-panel .bottom .box-crafted p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-customise {
+        max-width: 315px;
+    }
+
+    main .our-process-panel .bottom .box-customise p {
+        text-align: justify;
+    }
+}
+
+// 
+
+@media (max-width: 768px) {
+
+    main .our-process-panel .top {
+        margin: 0;
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    main .our-process-panel .top h1 {
+        text-align: center;
+    }
+
+    main .our-process-panel .top p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom {
+        margin: 60px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    main .our-process-panel .bottom .box-design {
+        max-width: 400px;
+    }
+
+    main .our-process-panel .bottom .box-design p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-crafted {
+        max-width: 400px;
+    }
+
+    main .our-process-panel .bottom .box-crafted p {
+        text-align: justify;
+    }
+
+    main .our-process-panel .bottom .box-customise {
+        max-width: 400px;
+    }
+
+    main .our-process-panel .bottom .box-customise p {
+        text-align: justify;
+    }
+}

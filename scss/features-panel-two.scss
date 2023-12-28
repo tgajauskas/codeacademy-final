@@ -1,0 +1,341 @@
+main .features-panel-two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: $black;
+    gap: 168px;
+    width: 100%;
+}
+
+main .features-panel-two .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+main .features-panel-two .left-logo {
+    width: 389px;
+    height: 169px;
+    background: transparent url('/resources/cheshire-county-hygiene-services.svg') no-repeat padding-box;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+
+main .features-panel-two .right {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-right: 150px;
+}
+
+main .features-panel-two .right-top {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
+}
+
+main .features-panel-two .right-top h1 {
+    font: normal normal 600 30px/43px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+    text-align: left;
+}
+
+main .features-panel-two .orange-divider {
+    height: 2px;
+    width: 200px;
+    background: transparent url('/resources/divider_orange_u7 copy 4.svg') 0% 0% no-repeat padding-box;
+}
+
+main .features-panel-two .right-top p {
+    max-width: 451px;
+    margin-bottom: 43px;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+    text-align: left;
+}
+
+main .features-panel-two .right-bottom-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 36px;
+    align-items: center;
+}
+
+main .features-panel-two .right-bottom-container .circle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    background: rgba(226, 120, 102, 1) 0% 0% no-repeat padding-box;
+    border: 1px solid rgba(226, 120, 102, 1);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+main .features-panel-two .right-bottom-container .text h1 {
+    max-width: 30px;
+    font: normal normal 600 14px/17px Montserrat;
+    margin-bottom: 6px;
+    letter-spacing: 0px;
+    color: $white;
+    opacity: 1;
+}
+
+main .features-panel-two .right-bottom-container .text p {
+    max-width: 394px;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+    opacity: 1;
+}
+
+// 
+// Media properties
+// 
+
+@media (max-width: 320px) {
+
+    main .features-panel-two {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    main .features-panel-two .left {
+        margin: 0 !important;
+        margin-top: 30px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        width: 260px !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    main .features-panel-two .left .left-logo {
+        width: 260px !important;
+    }
+
+    main .features-panel-two .left .left-logo img {
+        width: 260px !important;
+    }
+
+    main .features-panel-two .right {
+        margin: 0;
+    }
+
+    main .features-panel-two .right .right-top {
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main .features-panel-two .right .right-top h1 {
+        max-width: 320px !important;
+        margin-bottom: 30px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    main .features-panel-two .right .right-top p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 260px;
+        text-align: justify;
+    }
+
+    main .features-panel-two .right .right-bottom-container {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .features-panel-two .right .right-bottom-container p {
+        max-width: 260px;
+    }
+}
+
+// 
+
+@media (max-width: 375px) {
+
+    main .features-panel-two {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    main .features-panel-two .left {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 260px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .features-panel-two .left .left-logo {
+        width: 260px;
+    }
+
+    main .features-panel-two .left .left-logo img {
+        width: 260px;
+    }
+
+    main .features-panel-two .right {
+        margin: 0;
+    }
+
+    main .features-panel-two .right .right-top {
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main .features-panel-two .right .right-top h1 {
+        max-width: 320px;
+        margin-bottom: 30px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    main .features-panel-two .right .right-top p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 315px;
+        text-align: justify;
+    }
+
+    main .features-panel-two .right .right-bottom-container {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .features-panel-two .right .right-bottom-container p {
+        max-width: 260px;
+    }
+}
+
+// 
+
+@media (max-width: 425px) {
+
+    main .features-panel-two {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    main .features-panel-two .left {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .features-panel-two .left .left-logo {
+        width: 260px;
+    }
+
+    main .features-panel-two .right {
+        margin: 0;
+    }
+
+    main .features-panel-two .right .right-top {
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main .features-panel-two .right .right-top h1 {
+        max-width: 320px;
+        margin-bottom: 30px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    main .features-panel-two .right .right-top p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 315px;
+        text-align: justify;
+    }
+
+    main .features-panel-two .right .right-bottom-container {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .features-panel-two .right .right-bottom-container p {
+        max-width: 260px;
+    }
+}
+
+// 
+
+@media (max-width: 768px) {
+
+    main .features-panel-two {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    main .features-panel-two .left {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .features-panel-two .left .left-logo {
+        width: 260px;
+    }
+
+    main .features-panel-two .right {
+        margin: 0;
+    }
+
+    main .features-panel-two .right .right-top {
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    main .features-panel-two .right .right-top h1 {
+        margin-bottom: 30px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    main .features-panel-two .right .right-top p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    main .features-panel-two .right .right-bottom-container {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+}

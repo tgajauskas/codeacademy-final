@@ -1,0 +1,482 @@
+main .pricing-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(102, 150, 226, 1) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+}
+
+main .pricing-panel .pricing-panel-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 97px;
+}
+
+main .pricing-panel .pricing-panel-top h1 {
+    margin-bottom: 22px;
+    text-align: center;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+main .pricing-panel .pricing-panel-top-divider {
+    width: 64px;
+    height: 2px;
+    margin-bottom: 26px;
+    background: transparent url('/resources/divider_orange_u7\ copy.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+main .pricing-panel .pricing-panel-top p {
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+    opacity: 1;
+}
+
+main .pricing-panel .pricing-panel-bottom {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 83px;
+    margin-bottom: 107px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+main .pricing-panel .pricing-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+main .pricing-panel .pricing-box-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 59px;
+    border-radius: 5px 5px 0px 0px;
+    background: rgb(51 51 51);
+}
+
+main .pricing-panel .pricing-box-title h1 {
+    font: normal normal normal 20px/24px Montserrat;
+    color: $white;
+}
+
+main .pricing-panel .pricing-box-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 100px;
+    background: rgb(51 51 51);
+}
+
+main .pricing-panel .price-box {
+    display: flex;
+    flex-direction: row;
+}
+
+main .pricing-panel .price-box span {
+    font: normal normal normal 24px Montserrat;
+}
+
+main .pricing-panel .price-box p {
+    font: normal normal normal 94px/24px Montserrat;
+}
+
+main .pricing-panel .pricing-box-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 51px;
+    background: rgb(51 51 51);
+}
+
+main .pricing-panel .pricing-box-option p {
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+    opacity: 0.5;
+}
+
+main .pricing-panel .pricing-box-divider {
+    width: 343px;
+    height: 6px;
+    background: rgba(65, 211, 149, 1);
+}
+
+main .pricing-panel .pricing-box-feature, .pricing-box-feature-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 40px;
+    background: $white;
+}
+
+main .pricing-panel .pricing-box-feature-bottom {
+    border-radius: 0px 0px 5px 5px;
+}
+
+main .pricing-panel .pricing-box-feature p, .pricing-box-feature-bottom p {
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(134, 135, 139, 1);
+    opacity: 1;
+}
+
+main .pricing-panel .pricing-box-feature-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 343px;
+    height: 40px;
+    background: rgba(65, 211, 149, 1);
+}
+
+main .pricing-panel .pricing-box-feature-center p {
+    font: normal normal normal 14px/24px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+// 
+// Media properties
+// 
+
+@media (max-width: 320px) {
+
+    main .pricing-panel .pricing-panel-top {
+        margin: 30px !important;
+    }
+
+    main .pricing-panel .pricing-panel-top h1 {
+        text-align: center;
+    }
+
+    main .pricing-panel .pricing-panel-top p {
+        text-align: justify;
+    }
+
+    main .pricing-panel .pricing-panel-bottom {
+        margin: 30px !important;
+        justify-content: center;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box {
+        margin: 30px !important;
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-title {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-price {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-option {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-divider {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature-bottom {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center {
+        margin: 30px;
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-title {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-price {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-option {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-center {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-bottom {
+        width: 260px !important;
+    }
+}
+
+// 
+
+@media (max-width: 375px) {
+
+    main .pricing-panel .pricing-panel-top {
+        margin: 30px !important;
+    }
+
+    main .pricing-panel .pricing-panel-top h1 {
+        text-align: center !important;
+    }
+
+    main .pricing-panel .pricing-panel-top p {
+        text-align: justify !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom {
+        margin: 30px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box {
+        margin: 30px !important;
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-title {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-price {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-option {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-divider {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature-bottom {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center {
+        margin: 30px !important;
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-title {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-price {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-option {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-center {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature {
+        width: 260px !important;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-bottom {
+        width: 260px !important;
+    }
+}
+
+@media (max-width: 425px) {
+
+    main .pricing-panel .pricing-panel-top {
+        margin: 30px;
+    }
+
+    main .pricing-panel .pricing-panel-top h1 {
+        text-align: center;
+    }
+
+    main .pricing-panel .pricing-panel-top p {
+        text-align: justify;
+    }
+
+    main .pricing-panel .pricing-panel-bottom {
+        margin: 30px;
+        justify-content: center;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box {
+        margin: 30px;
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-title {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-price {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-option {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-divider {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature-bottom {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center {
+        margin: 30px;
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-title {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-price {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-option {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-center {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-bottom {
+        width: 365px;
+    }
+}
+
+// 
+
+@media (max-width: 768px) {
+
+    main .pricing-panel .pricing-panel-top {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin: 60px;
+    }
+
+    main .pricing-panel .pricing-panel-top h1 {
+        text-align: center;
+    }
+
+    main .pricing-panel .pricing-panel-top p {
+        text-align: justify;
+    }
+
+    main .pricing-panel .pricing-panel-bottom {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin: 60px;
+        justify-content: center;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box {
+        margin: 30px;
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-title {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-price {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-option {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-divider {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box .pricing-box-feature-bottom {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center {
+        margin: 30px;
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-title {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-price {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-option {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-center {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature {
+        width: 365px;
+    }
+
+    main .pricing-panel .pricing-panel-bottom .pricing-box-center .pricing-box-feature-bottom {
+        width: 365px;
+    }
+}

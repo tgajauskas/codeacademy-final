@@ -1,0 +1,290 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
+
+nav .logo {
+    margin-left: 150px;
+}
+
+nav .links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+nav .links a {
+    margin-top: 27px;
+    padding-bottom: 27px;
+    font: normal normal normal 14px/17px Montserrat;
+    text-decoration: none;
+    color: $white;
+    opacity: 0.69;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav a::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $orange;
+    transform: scaleX(0);
+    transform-origin: bottom center;
+    transition: transform 0.3s ease;
+}
+
+nav .links a:hover::after {
+    transform: scaleX(1);
+}
+
+nav .links a:hover {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+nav .links a.active {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+nav .links a.active::after {
+    transform: scaleX(1);
+}
+
+nav .fa-bars {
+    display: none;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 72px;
+    left: 0;  
+    width: 100%;
+    height: 280px;
+    transform: translateY(-135%);
+    transition: 0.3s;
+}
+
+#side-menu {
+    width: 100%;
+}
+
+.side-menu.translateX {
+    transform: translateY(0);
+}
+
+.side-menu .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #1C1C1C 0% 0% no-repeat padding-box;
+    gap: 0;
+}
+
+
+#burger {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#burger.rotate {
+    transform: rotate(90deg);
+}
+
+@media (max-width: 320px) {
+    nav {
+        width: 100%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    nav .links {
+        display: none;
+        margin-right: 0px;
+        height: 75%;
+    }
+
+    nav .side-menu {
+        height: 350px;
+    }
+
+    nav .links a {
+        padding-bottom: 3px;
+    }
+
+    nav .fa-bars {
+        display: block;
+        margin-right: 30px !important;
+    }
+
+    nav .logo {
+        margin-left: 30px !important;
+    }
+
+    nav #side-menu .side-menu{
+        width: 100%;
+    }
+
+    #side-menu {
+        width: 100%;
+    }
+
+    #side-menu .links {
+        width: 100%;
+    }
+}
+
+// 
+
+@media (max-width: 375px) {
+    nav {
+        width: 100%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    nav .links {
+        display: none;
+        margin-right: 0px;
+        height: 75%;
+    }
+
+    nav .side-menu {
+        height: 350px;
+    }
+
+    nav .links a {
+        padding-bottom: 3px;
+    }
+
+    nav .fa-bars {
+        display: block;
+        margin-right: 30px !important;
+    }
+
+    nav .logo {
+        margin-left: 30px !important;
+    }
+
+    nav #side-menu .side-menu{
+        width: 100%;
+    }
+
+    #side-menu {
+        width: 100%;
+    }
+
+    #side-menu .links {
+        width: 100%;
+    }
+}
+
+// 
+
+@media (max-width: 425px) {
+    nav {
+        width: 100%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    nav .links {
+        display: none;
+        margin-right: 0px;
+        height: 75%;
+    }
+
+    nav .side-menu {
+        height: 350px;
+    }
+
+    nav .links a {
+        padding-bottom: 3px;
+    }
+
+    nav .fa-bars {
+        display: block;
+        margin-right: 30px !important;
+    }
+
+    nav .logo {
+        margin-left: 30px !important;
+    }
+
+    nav #side-menu .side-menu{
+        width: 100%;
+    }
+
+    #side-menu {
+        width: 100%;
+    }
+
+    #side-menu .links {
+        width: 100%;
+    }
+}
+
+// 
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    nav .links {
+        display: none;
+        margin-right: 0px;
+        height: 75%;
+    }
+
+    nav .side-menu {
+        height: 350px;
+    }
+
+    nav .links a {
+        padding-bottom: 3px;
+    }
+
+    nav .fa-bars {
+        display: block;
+        margin-right: 60px;
+    }
+
+    nav .logo {
+        margin-left: 60px;
+    }
+
+    nav #side-menu .side-menu{
+        width: 100%;
+    }
+
+    #side-menu {
+        width: 100%;
+    }
+
+    #side-menu .links {
+        width: 100%;
+    }
+}

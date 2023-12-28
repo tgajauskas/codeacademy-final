@@ -1,0 +1,215 @@
+.contact-panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #E27866 0% 0% no-repeat padding-box;
+}
+
+.contact-panel h1 {
+    margin-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+}
+
+.contact-panel p {
+    margin-top: 50px;
+    margin-bottom: 27px;
+    text-align: center;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin-bottom: 50px;
+    background: $white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+    border-radius: 5px;
+}
+
+main .contact-form .contact-form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 33px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main .contact-form .contact-form-inputs #number {
+    margin-bottom: 26px;
+}
+
+.contact-form-inputs input {
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 33px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    outline: none;
+    font: normal normal normal 12px/24px Montserrat;
+}
+
+.contact-form-inputs input::placeholder {
+    font: normal normal normal 12px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #D8D8D8;
+}
+
+
+main .contact-form .contact-form-radios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: $white;
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+
+main .contact-form .contact-form-radios input {
+    margin-right: 5px;
+}
+
+.contact-form-radios label {
+    text-align: left;
+    text-transform: uppercase;
+    font: normal normal 600 9px/27px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-right: 12px;
+}
+
+button {
+    align-self: center;
+    margin-bottom: 32px;
+    width: 158px;
+    height: 48px;
+    background: #41D395 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    font: normal normal 600 15px/18px Montserrat;
+    letter-spacing: 0px;
+    color: $white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+  }
+// 
+// Media parameters
+// 
+
+@media (max-width: 320px) {
+    main .contact-panel h1 {
+        margin: 0;
+        margin: 30px;
+        text-align: center;
+    }
+
+    main .contact-panel p {
+        margin: 0;
+        margin: 30px;
+        text-align: justify;
+    }
+
+    main .contact-panel .contact-form {
+        width: 260px;
+    }
+
+    main .contact-panel .contact-form .contact-form-inputs {
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .contact-panel .contact-form .contact-form-inputs input {
+        width: 80%;
+    }
+
+    main .contact-panel .contact-form .contact-form-radios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+}
+
+// 
+
+@media (max-width: 375px) {
+    main .contact-panel h1 {
+        margin: 0;
+        margin: 30px;
+        text-align: center;
+    }
+
+    main .contact-panel p {
+        margin: 0;
+        margin: 30px;
+        text-align: justify;
+    }
+
+    main .contact-panel .contact-form {
+        width: 260px;
+    }
+
+    main .contact-panel .contact-form .contact-form-inputs {
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .contact-panel .contact-form .contact-form-inputs input {
+        width: 80%;
+    }
+
+    main .contact-panel .contact-form .contact-form-radios {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+}
+
+// 
+
+@media (max-width: 425px) {
+    main .contact-panel h1 {
+        margin: 0;
+        margin: 30px;
+        text-align: center;
+    }
+
+    main .contact-panel p {
+        margin: 0;
+        margin: 30px;
+        text-align: justify;
+    }
+
+    main .contact-panel .contact-form .contact-form-inputs {
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .contact-panel .contact-form .contact-form-inputs input {
+        width: 90%;
+    }
+
+    main .contact-panel .contact-form .contact-form-radios {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 15px;
+    }
+}

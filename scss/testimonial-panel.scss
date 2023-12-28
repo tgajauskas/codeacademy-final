@@ -1,0 +1,203 @@
+.testimonial-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $white;
+}
+
+.testimonial-panel .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-panel h1 {
+    text-align: center;
+    margin-top: 67px;
+    font: normal normal 600 36px/43px Montserrat;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+}
+
+.testimonial-panel-divider {
+    margin-top: 31px;
+    margin-bottom: 58px;
+    width: 64px;
+    height: 2px;
+    background: #6696E2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.testimonial-panel-feedback {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 119px;
+    margin-bottom: 86px;
+}
+
+.testimonial-panel .bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-rectangle {
+    position: relative;
+    background: #6696E2;
+    border-radius: 8px;
+    width: 273px;
+    height: 147px;
+}
+
+.feedback-triangle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    background: #6696E2 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    bottom: 20px;
+    left: 23px;
+    z-index: 0;
+}
+
+.feedback-rectangle p {
+    margin: 20px;
+    font: normal normal normal 16px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.feedback-avatar {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar-picture {
+    margin-top: 19px;
+    margin-right: 17px;
+    width: 70px;
+    height: 70px;
+    background: transparent url('/resources/avatar_2_u231.png') 0% 0% no-repeat padding-box;;
+}
+
+.avatar-text h2 {
+    margin-top: 32px;
+    font: normal normal normal 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.avatar-text p {
+    font: normal normal normal 14px/17px Montserrat;
+    letter-spacing: 0px;
+    color: #86878B;
+    opacity: 1;
+}
+
+.feedback-rectangle-mid {
+    position: relative;
+    background: #6696E2;
+    width: 273px;
+    height: 125px;
+    border-radius: 8px;
+    margin-top: 22px;
+    opacity: 1;
+}
+
+.feedback-triangle-mid {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    background: #6696E2 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    bottom: 21px;
+    left: 23px;
+    z-index: 0;
+}
+
+.feedback-rectangle-mid p {
+    font: normal normal normal 16px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 20px;
+}
+
+.bottom-slideshow-bubbles {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 10px;
+    margin-bottom: 57px;
+    margin-top: 86px;
+}
+
+.bubble {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #E27866;
+    border-radius: 50%;
+}
+
+.bubble-filled {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #E27866;
+    border-radius: 50%;
+    background: #E27866;
+}
+// 
+// Media properties
+// 
+
+@media (max-width: 320px) {
+    main .testimonial-panel .bottom {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    main .testimonial-panel .bottom {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    main .testimonial-panel .bottom {
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    main .testimonial-panel .bottom {
+        margin-left: 60px;
+        margin-right: 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 103px;
+    }
+}
